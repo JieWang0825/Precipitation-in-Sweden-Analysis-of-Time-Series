@@ -32,7 +32,7 @@ We conducted a **time series analysis** to explore precipitation trends:
    - Stationarity confirmed using **ADF test**
    - Best SARIMA model found: `SARIMA(0,0,0)x(0,1,1)_4`
 
-   ![Seasonally differenced time series](images/season_diff_precipitation_ts.png)
+   ![Seasonally differenced time series](images/season_diff_precipitation_ts_00.png)
    
    **Forecast (2022-2051):**
    - Winter: 154 mm
@@ -40,7 +40,7 @@ We conducted a **time series analysis** to explore precipitation trends:
    - Summer: 220 mm
    - Fall: 189 mm
 
-   ![Forecast](images/forecast_precipitation.pdf)
+   ![Forecast](images/forecast_precipitation_00.png)
 
 2. **Seasonal Trends**
    - Winter & Spring: slight increasing trend observed
