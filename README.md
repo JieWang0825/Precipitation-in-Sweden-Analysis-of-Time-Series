@@ -17,7 +17,7 @@ This repository contains the analysis of precipitation trends in Sweden from 193
 
 > Note: Data before 1933 are considered less reliable and are not included.
 
-![Map of SMHI stations](images/project/stations_Sweden.png)
+![Map of SMHI stations](images/stations_Sweden.png)
 
 ---
 
@@ -32,7 +32,7 @@ We conducted a **time series analysis** to explore precipitation trends:
    - Stationarity confirmed using **ADF test**
    - Best SARIMA model found: `SARIMA(0,0,0)x(0,1,1)_4`
 
-   ![Seasonally differenced time series](images/project/season_diff_precipitation_ts.pdf)
+   ![Seasonally differenced time series](images/season_diff_precipitation_ts.pdf)
    
    **Forecast (2022-2051):**
    - Winter: 154 mm
@@ -40,7 +40,7 @@ We conducted a **time series analysis** to explore precipitation trends:
    - Summer: 220 mm
    - Fall: 189 mm
 
-   ![Forecast](images/project/forecast_precipitation.pdf)
+   ![Forecast](images/forecast_precipitation.pdf)
 
 2. **Seasonal Trends**
    - Winter & Spring: slight increasing trend observed
@@ -50,7 +50,7 @@ We conducted a **time series analysis** to explore precipitation trends:
      - Spring supports minor growth
      - Summer and Fall maintain stability
 
-   ![Seasonal precipitation](images/project/precipitation_four_seasons.pdf)
+   ![Seasonal precipitation](images/precipitation_four_seasons.pdf)
 
 ---
 
@@ -59,8 +59,8 @@ We conducted a **time series analysis** to explore precipitation trends:
 - **Winter & Spring:** Slight increase, but series considered stationary (p < 0.05)
 - **Summer & Fall:** Stationary as expected
 
-![ADF test Winter & Spring](images/project/adf_test_winter_spring_precipitation.png)
-![ADF test Summer & Fall](images/project/adf_summer_fall_precipitation.png)
+![ADF test Winter & Spring](images/adf_test_winter_spring_precipitation.png)
+![ADF test Summer & Fall](images/adf_summer_fall_precipitation.png)
 
 ---
 
