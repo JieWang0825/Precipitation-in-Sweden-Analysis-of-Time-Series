@@ -32,7 +32,7 @@ We conducted a **time series analysis** to explore precipitation trends:
    - Stationarity confirmed using **ADF test**
    - Best SARIMA model found: `SARIMA(0,0,0)x(0,1,1)_4`
 
-   ![Seasonally differenced time series](images/season_diff_precipitation_ts.pdf)
+   ![Seasonally differenced time series](images/season_diff_precipitation_ts.png)
    
    **Forecast (2022-2051):**
    - Winter: 154 mm
@@ -50,7 +50,7 @@ We conducted a **time series analysis** to explore precipitation trends:
      - Spring supports minor growth
      - Summer and Fall maintain stability
 
-   ![Seasonal precipitation](images/precipitation_four_seasons.pdf)
+   ![Seasonal precipitation](images/precipitation_four_seasons.png)
 
 ---
 
@@ -84,11 +84,5 @@ We conducted a **time series analysis** to explore precipitation trends:
 
 ---
 
-## 🔗 References
-
-- Trenberth et al., [Reference details]  
-- New et al., [Reference details]  
-
----
 
 **Authors:** Jie & Tom 
