@@ -59,8 +59,10 @@ We conducted a **time series analysis** to explore precipitation trends:
 - **Winter & Spring:** Slight increase, but series considered stationary (p < 0.05)
 - **Summer & Fall:** Stationary as expected
 
-![ADF test Winter & Spring](images/adf_test_winter_spring_precipitation.png)
-![ADF test Summer & Fall](images/adf_summer_fall_precipitation.png)
+![ADF test Winter](images/adf_test_winter_precipitation.png)
+![ADF test Spring](images/adf_test_spring_precipitation.png)
+![ADF test Summer](images/adf_test_summer_precipitation.png)
+![ADF test Fall](images/adf_test_fall_precipitation.png)
 
 ---
 
